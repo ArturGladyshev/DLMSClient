@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Objects>
+    <!--Passport data-->
+    <GXDLMSData>
+        <LN>0.0.40.0.0.255</LN>
+        <Description>Current association object</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">AssociationObject</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>0.0.42.0.0.255</LN>
+        <Description>Logical device name</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">LDN</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>0.0.96.1.0.255</LN>
+        <Description>Serial number</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">SERIAL</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>0.0.96.1.2.255</LN>
+        <Description>Meter type</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">TYPE</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>0.0.96.1.1.255</LN>
+        <Description>Manufacturer's name</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">MANUFACTURER</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>0.0.96.1.6.255</LN>
+        <Description>SPODES version</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">VERSION</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>0.0.96.1.4.255</LN>
+        <Description>Release date</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">DATE</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>0.0.94.7.1.255</LN>
+        <Description>logical name object</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">NAME</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>1.0.0.2.0.255</LN>
+        <Description>Identifier VPO</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">IDENTIFIER</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>1.0.0.4.2.255</LN>
+        <Description>Current transformation ratio</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">RATIO</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>1.0.0.4.3.255</LN>
+        <Description>Voltage transformation ratio</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">RATIO</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>0.0.96.1.10.255</LN>
+        <Description>Accounting point data</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">DATA</Value>
+    </GXDLMSData>
+    <GXDLMSRegister>
+        <LN>1.0.0.6.1.255</LN>
+        <Description>Rated base current</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.0.6.0.255</LN>
+        <Description>Rated voltage</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSData>
+        <LN>0.0.43.1.0.255</LN>
+        <Description>Invocation counter</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="6">0</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>0.0.96.1.3.255</LN>
+        <Description>Meter execution ID</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="18">0</Value>
+    </GXDLMSData>
+    <GXDLMSRegister>
+        <LN>1.0.0.6.3.255</LN>
+        <Description>Max current</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.0.6.2.255</LN>
+        <Description>Rated frequency</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.0.6.4.255</LN>
+        <Description>Matched power supply voltage</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSData>
+        <LN>1.0.0.3.3.255</LN>
+        <Description>Meter constant for active energy</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">CONST</Value>
+    </GXDLMSData>
+    <GXDLMSData>
+        <LN>1.0.0.3.4.255</LN>
+        <Description>Meter constant for reactive energy</Description>
+        <Access>11</Access>
+        <MethodAccess/>
+        <Value Type="9" UIType="10">CONST</Value>
+    </GXDLMSData>
+    <!--Registers-->
+    <GXDLMSRegister>
+        <LN>1.0.1.7.0.255</LN>
+        <Description>Active power sum</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.21.7.0.255</LN>
+        <Description>Active power phase1</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.41.7.0.255</LN>
+        <Description>Active power phase2</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.61.7.0.255</LN>
+        <Description>Active power phase3</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.3.7.0.255</LN>
+        <Description>Reactive power sum</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.23.7.0.255</LN>
+        <Description>Reactive power phase1</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.43.7.0.255</LN>
+        <Description>Reactive power phase2</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.63.7.0.255</LN>
+        <Description>Reactive power phase3</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.31.7.0.255</LN>
+        <Description>Current phase1</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.51.7.0.255</LN>
+        <Description>Current phase2</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.71.7.0.255</LN>
+        <Description>Current phase3</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.32.7.0.255</LN>
+        <Description>Voltage phase1</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.52.7.0.255</LN>
+        <Description>Voltage phase2</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.72.7.0.255</LN>
+        <Description>Voltage phase3</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.13.7.0.255</LN>
+        <Description>General factor</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.33.7.0.255</LN>
+        <Description>Power factor phase1</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.53.7.0.255</LN>
+        <Description>Power factor phase2</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.73.7.0.255</LN>
+        <Description>Power factor phase3</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.14.7.0.255</LN>
+        <Description>Network frequency</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.9.7.0.255</LN>
+        <Description>Full power sum</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.29.7.0.255</LN>
+        <Description>Full power phase1</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.49.7.0.255</LN>
+        <Description>Full power phase2</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.69.7.0.255</LN>
+        <Description>Full power phase3</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.1.8.0.255</LN>
+        <Description>Accumulation active energy by rates (sum, import)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.1.8.1.255</LN>
+        <Description>Accumulation active energy by rates (phase1, import)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.1.8.2.255</LN>
+        <Description>Accumulation active energy by rates (phase2, import)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.1.8.3.255</LN>
+        <Description>Accumulation active energy by rates (phase3, import)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.1.8.4.255</LN>
+        <Description>Accumulation active energy by rates (phase4, import)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.2.8.0.255</LN>
+        <Description>Accumulation active energy by rates (sum, export)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.2.8.1.255</LN>
+        <Description>Accumulation active energy by rates (phase1, export)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.2.8.2.255</LN>
+        <Description>Accumulation active energy by rates (phase2, export)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.2.8.3.255</LN>
+        <Description>Accumulation active energy by rates (phase3, export)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.3.8.0.255</LN>
+        <Description>Accumulation reactive energy by rates (sum, import)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.3.8.1.255</LN>
+        <Description>Accumulation reactive energy by rates (phase1, import)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.3.8.2.255</LN>
+        <Description>Accumulation reactive energy by rates (phase2, import)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.3.8.3.255</LN>
+        <Description>Accumulation reactive energy by rates (phase3, import)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.4.8.0.255</LN>
+        <Description>Accumulation reactive energy by rates (sum, export)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.4.8.1.255</LN>
+        <Description>Accumulation reactive energy by rates (phase1, export)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.4.8.2.255</LN>
+        <Description>Accumulation reactive energy by rates (phase2, export)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.4.8.3.255</LN>
+        <Description>Accumulation reactive energy by rates (phase3, export)</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.1.5.0.255</LN>
+        <Description>Block active energy–import</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.2.5.0.255</LN>
+        <Description>Block active energy–export</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.3.5.0.255</LN>
+        <Description>Block reactive energy–import</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.4.5.0.255</LN>
+        <Description>Block reactive energy–export</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="23">0.0</Value>
+    </GXDLMSRegister>
+    <GXDLMSRegister>
+        <LN>1.0.0.1.2.255</LN>
+        <Description>Billing date</Description>
+        <Access>111</Access>
+        <MethodAccess>1</MethodAccess>
+        <Value Type="26" UIType="10">00 00 00 00 00</Value>
+    </GXDLMSRegister>
+    <!--Profiles-->
+    <GXDLMSProfileGeneric>
+        <LN>0.0.94.7.1.255</LN>
+        <Description>Passport data profile</Description>
+        <Access>11111111</Access>
+        <MethodAccess>11</MethodAccess>
+        <CaptureObjects>
+            <Item>
+                <ObjectType>1</ObjectType>
+                <LN>0.0.96.1.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>9</Data>
+            </Item>
+            <Item>
+                <ObjectType>1</ObjectType>
+                <LN>0.0.96.1.1.255</LN>
+                <Attribute>2</Attribute>
+                <Data>9</Data>
+            </Item>
+            <Item>
+                <ObjectType>1</ObjectType>
+                <LN>0.0.96.1.2.255</LN>
+                <Attribute>2</Attribute>
+                <Data>9</Data>
+            </Item>
+            <Item>
+                <ObjectType>1</ObjectType>
+                <LN>0.0.96.1.3.255</LN>
+                <Attribute>2</Attribute>
+                <Data>18</Data>
+            </Item>
+            <Item>
+                <ObjectType>1</ObjectType>
+                <LN>1.0.0.2.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>9</Data>
+            </Item>
+        </CaptureObjects>
+        <SortMethod>1</SortMethod>
+        <SortObject>0</SortObject>
+        <EntriesInUse>0</EntriesInUse>
+        <ProfileEntries>1</ProfileEntries>
+    </GXDLMSProfileGeneric>
+    <GXDLMSProfileGeneric>
+        <LN>1.0.94.7.0.255</LN>
+        <Description>Instant values profile</Description>
+        <Access>11111111</Access>
+        <MethodAccess>11</MethodAccess>
+        <CaptureObjects>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.1.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.21.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.41.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.61.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.3.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.23.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.43.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.63.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.13.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.14.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.31.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.51.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.71.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.32.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.52.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.72.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.33.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.53.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.73.7.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+        </CaptureObjects>
+        <SortMethod>1</SortMethod>
+        <SortObject>0</SortObject>
+        <EntriesInUse>0</EntriesInUse>
+        <ProfileEntries>1</ProfileEntries>
+    </GXDLMSProfileGeneric>
+    <GXDLMSProfileGeneric>
+        <LN>1.0.99.1.0.255</LN>
+        <Description>Load profile</Description>
+        <Access>11111111</Access>
+        <MethodAccess>11</MethodAccess>
+        <CaptureObjects>
+            <Item>
+                <ObjectType>8</ObjectType>
+                <LN>0.0.1.0.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>25</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.1.5.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.2.5.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.3.5.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.4.5.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+        </CaptureObjects>
+        <SortMethod>1</SortMethod>
+        <SortObject>0</SortObject>
+        <EntriesInUse>0</EntriesInUse>
+        <ProfileEntries>1</ProfileEntries>
+    </GXDLMSProfileGeneric>
+    <GXDLMSProfileGeneric>
+        <LN>1.0.98.2.0.255</LN>
+        <Description>Daily sum energy by rates</Description>
+        <Access>11111111</Access>
+        <MethodAccess>11</MethodAccess>
+        <CaptureObjects>
+            <Item>
+                <ObjectType>8</ObjectType>
+                <LN>0.0.1.0.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>25</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.1.8.1.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.1.8.2.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.1.8.3.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.1.8.4.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.1.8.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.2.8.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.3.8.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.4.8.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+        </CaptureObjects>
+        <SortMethod>1</SortMethod>
+        <SortObject>0</SortObject>
+        <EntriesInUse>0</EntriesInUse>
+        <ProfileEntries>1</ProfileEntries>
+    </GXDLMSProfileGeneric>
+    <GXDLMSProfileGeneric>
+        <LN>1.0.98.1.0.255</LN>
+        <Description>Monthly sum energy by rates</Description>
+        <Access>11111111</Access>
+        <MethodAccess>11</MethodAccess>
+        <CaptureObjects>
+            <Item>
+                <ObjectType>8</ObjectType>
+                <LN>0.0.1.0.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>26</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.1.8.1.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.1.8.2.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.1.8.3.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.1.8.4.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.1.8.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.2.8.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.3.8.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+            <Item>
+                <ObjectType>3</ObjectType>
+                <LN>1.0.4.8.0.255</LN>
+                <Attribute>2</Attribute>
+                <Data>23</Data>
+            </Item>
+        </CaptureObjects>
+        <SortMethod>1</SortMethod>
+        <SortObject>0</SortObject>
+        <EntriesInUse>0</EntriesInUse>
+        <ProfileEntries>1</ProfileEntries>
+    </GXDLMSProfileGeneric>
+</Objects>
